@@ -81,7 +81,7 @@ elif color == "verde":
     print("El color es verde.")
 elif color == "azul":
     print("El color es azul.")
-    '''
+
 #Declaración match-case
 
 fruta = input("Introduzca una fruta: ")
@@ -146,5 +146,26 @@ match numeros:
         print(f"Dos elementos: {uno} y {dos}.")
     case [uno, *resto]:
         print(f"Primer elemento: {uno}, resto de la lista: {resto}.")
-        
+    '''  
 #Operadores logicos
+#Operador and
+
+edad = 25
+ingresos = 30000
+
+if edad >= 18 and ingresos >= 20000:
+    print("Eres elegible para el crédito.")
+    
+#Operador or
+
+dia = "sábado"
+
+if dia == "sábado" or dia == "domingo":
+    print("Es fin de semana.")
+    
+#Operador not
+
+llueve = False
+
+if not llueve:
+    print("Podemos salir al parque.")
